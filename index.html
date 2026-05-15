@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Catarina R. Meneses | Economist</title>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --bg: #f7f5f0;
+      --ink: #1a1814;
+      --muted: #6b6660;
+      --rule: #d4cfc8;
+      --accent: #8b3a2a;
+      --accent-light: #f0e8e5;
+      --max: 780px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    /* ── Layout ── */
+    .page {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 64px 32px 100px;
+      opacity: 0;
+      animation: fadeUp 0.7s ease forwards;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(18px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ── Header ── */
+    header {
+      border-bottom: 2px solid var(--ink);
+      padding-bottom: 28px;
+      margin-bottom: 44px;
+    }
+
+    header h1 {
+      font-family: 'EB Garamond', serif;
+      font-size: 2.6rem;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      line-height: 1.15;
+      margin-bottom: 10px;
+    }
+
+    .header-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 24px;
+      color: var(--muted);
+      font-size: 13.5px;
+    }
+
+    .header-meta a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+    .header-meta a:hover { border-color: var(--accent); }
+
+    /* ── Section ── */
+    section { margin-bottom: 40px; }
+
+    .section-title {
+      font-family: 'EB Garamond', serif;
+      font-size: 0.72rem;
+      font-weight: 500;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 16px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    /* ── Entry rows ── */
+    .entry {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 2px 16px;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--rule);
+    }
+    .entry:last-child { border-bottom: none; }
+
+    .entry-title {
+      font-family: 'EB Garamond', serif;
+      font-size: 1.05rem;
+      font-weight: 500;
+      line-height: 1.3;
+      grid-column: 1;
+    }
+    .entry-sub {
+      font-size: 13.5px;
+      color: var(--muted);
+      grid-column: 1;
+    }
+    .entry-date {
+      font-size: 12.5px;
+      color: var(--muted);
+      white-space: nowrap;
+      text-align: right;
+      grid-row: 1;
+      grid-column: 2;
+      padding-top: 2px;
+    }
+    .entry-note {
+      font-size: 13px;
+      color: var(--muted);
+      grid-column: 1 / -1;
+      font-style: italic;
+      margin-top: 2px;
+    }
+
+    /* ── Papers ── */
+    .paper {
+      padding: 14px 0;
+      border-bottom: 1px solid var(--rule);
+    }
+    .paper:last-child { border-bottom: none; }
+
+    .paper-title {
+      font-family: 'EB Garamond', serif;
+      font-size: 1.05rem;
+      font-style: italic;
+      line-height: 1.4;
+    }
+    .paper-meta {
+      font-size: 13.5px;
+      color: var(--muted);
+      margin-top: 3px;
+    }
+    .paper-tag {
+      display: inline-block;
+      font-size: 11px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      background: var(--accent-light);
+      color: var(--accent);
+      padding: 2px 7px;
+      border-radius: 2px;
+      margin-right: 6px;
+      vertical-align: middle;
+    }
+
+    /* ── Simple list ── */
+    .simple-list { list-style: none; }
+    .simple-list li {
+      padding: 7px 0;
+      border-bottom: 1px solid var(--rule);
+      font-size: 14.5px;
+    }
+    .simple-list li:last-child { border-bottom: none; }
+    .simple-list li span {
+      color: var(--muted);
+      font-size: 13px;
+      margin-left: 6px;
+    }
+
+    /* ── Skills grid ── */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px 32px;
+    }
+    .skill-row { font-size: 14px; }
+    .skill-label {
+      font-size: 11.5px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    /* ── Fields of interest ── */
+    .fields {
+      font-family: 'EB Garamond', serif;
+      font-size: 1.15rem;
+      font-style: italic;
+      color: var(--muted);
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 560px) {
+      header h1 { font-size: 1.9rem; }
+      .entry { grid-template-columns: 1fr; }
+      .entry-date { grid-row: auto; grid-column: 1; text-align: left; }
+      .skills-grid { grid-template-columns: 1fr; }
+      .page { padding: 40px 20px 80px; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Header -->
+  <header>
+    <h1>Catarina Rodrigues Meneses</h1>
+    <div class="header-meta">
+      <span>Ph.D. Candidate, Applied Economics</span>
+      <span>Northeastern University, Boston</span>
+      <a href="mailto:meneses.c@northeastern.edu">meneses.c@northeastern.edu</a>
+      <span>Tel: 714-713-2216</span>
+    </div>
+  </header>
+
+  <!-- Fields of Interest -->
+  <section>
+    <div class="section-title">Fields of Interest</div>
+    <p class="fields">Crime, Gender, and Health Economics</p>
+  </section>
+
+  <!-- Education -->
+  <section>
+    <div class="section-title">Education</div>
+    <div class="entry">
+      <div class="entry-title">Ph.D., Applied Economics — Northeastern University, Boston</div>
+      <div class="entry-date">Expected May 2028</div>
+    </div>
+    <div class="entry">
+      <div class="entry-title">M.S., Economics — Northeastern University, Boston</div>
+      <div class="entry-date">December 2024</div>
+    </div>
+    <div class="entry">
+      <div class="entry-title">M.A., Economics — California State University, Fullerton</div>
+      <div class="entry-date">May 2021</div>
+    </div>
+    <div class="entry">
+      <div class="entry-title">B.A., Economics — California State University, Fullerton</div>
+      <div class="entry-date">May 2019</div>
+    </div>
+    <div class="entry">
+      <div class="entry-title">A.A., Economics — Santiago Canyon Community College, Orange</div>
+      <div class="entry-date">May 2017</div>
+    </div>
+  </section>
+
+  <!-- Working Papers -->
+  <section>
+    <div class="section-title">Working Papers</div>
+
+    <div class="paper">
+      <div class="paper-title">"From Treatment to Safety: The Role of Substance Use Treatment in Preventing Intimate Partner Violence."</div>
+      <div class="paper-meta"><span class="paper-tag">NBER WP No. 34642</span> January 2026 · with Mevlude Akbulut-Yuksel, Dhaval M. Dave, Bilge Erten, and Pinar Keskin</div>
+    </div>
+
+    <div class="paper">
+      <div class="paper-title">"When Minutes Count: Police Response and Domestic Violence Recidivism."</div>
+      <div class="paper-meta"><span class="paper-tag">Dissertation Chapter</span></div>
+    </div>
+
+      <div class="paper">
+      <div class="paper-title">"Fast Arrests, Safer Streets? The Impact of Rapid Clearance on Crime."</div>
+      <div class="paper-meta">With CarlyWill Sloan, Matthew B. Ross, and Austin Smith</div>
+    </div>
+    
+  </section>
+
+  <!-- Published Reports -->
+  <section>
+    <div class="section-title">Published Reports &amp; Thesis</div>
+
+    <div class="paper">
+      <div class="paper-title">"Beyond the Numbers: A Qualitative Evaluation of the Connecticut Racial Profiling Prohibition Project for Addressing Disparities in Traffic Stops."</div>
+      <div class="paper-meta"><span class="paper-tag">CTRP3</span> December 2025 · with Ermus St. Louis, Amanda Nett, and Jillian Reeves</div>
+    </div>
+
+    <div class="paper">
+      <div class="paper-title">"Does Affirmative Consent in Title IX Trainings Decrease Rape Rates on Campuses?"</div>
+      <div class="paper-meta"><span class="paper-tag">Masters Thesis</span> CSUF, May 2021</div>
+    </div>
+  </section>
+
+  <!-- Presentations -->
+  <section>
+    <div class="section-title">Presentations</div>
+
+    <div class="entry">
+      <div class="entry-title">"From Treatment to Safety: The Role of Substance Use Treatment in Preventing Intimate Partner Violence."</div>
+      <div class="entry-date">May 2026</div>
+      <div class="entry-sub">20th CIREQ PhD Students Annual Conference · Concordia University, Montreal, Canada</div>
+    </div>
+    <div class="entry">
+      <div class="entry-title">"Beyond the Numbers: A Qualitative Evaluation of the CTRP3."</div>
+      <div class="entry-date">January 2026</div>
+      <div class="entry-sub">CTRP3 Advisory Board Meeting · Connecticut · with Ermus St. Louis</div>
+    </div>
+    <div class="entry">
+      <div class="entry-title">"Does Faster Police Response in Domestic Violence Incidents Reduce Repeat Victimization?"</div>
+      <div class="entry-date">October 2025</div>
+      <div class="entry-sub">Criminal Justice &amp; Public Safety PhD Research Workshop · Arnold Ventures, Houston, TX</div>
+    </div>
+  </section>
+
+  <!-- Employment -->
+  <section>
+    <div class="section-title">Employment</div>
+
+    <div class="entry">
+      <div class="entry-title">Student Graduate Assistant</div>
+      <div class="entry-date">Sep 2023 – Present</div>
+      <div class="entry-sub">Northeastern University</div>
+    </div>
+    <div class="entry">
+      <div class="entry-title">Research Assistant</div>
+      <div class="entry-date">Sep – Dec 2025</div>
+      <div class="entry-sub">National Bureau of Economic Research</div>
+    </div>
+    <div class="entry">
+      <div class="entry-title">Part-time Economics Lecturer</div>
+      <div class="entry-date">Sep 2021 – May 2023</div>
+      <div class="entry-sub">CSU Fullerton · Golden West College · Cerritos College</div>
+    </div>
+    <div class="entry">
+      <div class="entry-title">Graduate Assistant, Economics Department</div>
+      <div class="entry-date">Sep 2019 – May 2021</div>
+      <div class="entry-sub">CSU Fullerton</div>
+    </div>
+    <div class="entry">
+      <div class="entry-title">Economics Tutor, Mihaylo Tutoring Center</div>
+      <div class="entry-date">Jan 2019 – May 2020</div>
+      <div class="entry-sub">CSU Fullerton</div>
+    </div>
+  </section>
+
+  <!-- Courses Taught -->
+  <section>
+    <div class="section-title">Courses Taught</div>
+    <ul class="simple-list">
+      <li>Economic Issues and Policy <span>Cerritos College, S2023</span></li>
+      <li>Principles of Macroeconomics <span>CSU Fullerton S2023 · Cerritos College F2022, S2023</span></li>
+      <li>Principles of Microeconomics <span>CSU Fullerton F2021–S2023 · Golden West College S2023 · Cerritos College F2022</span></li>
+      <li>Intermediate Microeconomics for Business Majors <span>CSU Fullerton, F2022</span></li>
+      <li>The Economic Environment <span>CSU Fullerton, S2022</span></li>
+      <li>Intermediate Business Microeconomics <span>CSU Fullerton S2020, F2020, S2021 (GA)</span></li>
+      <li>Comparative Economic Systems <span>CSU Fullerton F2019 (GA)</span></li>
+    </ul>
+  </section>
+
+  <!-- Awards & Honors -->
+  <section>
+    <div class="section-title">Awards &amp; Honors</div>
+    <ul class="simple-list">
+      <li>Outstanding Professor Award, Business Honors Program at CSUF <span>April 2023</span></li>
+      <li>Outstanding Graduate Scholarly Research Award <span>May 2021</span></li>
+      <li>Advanced Graduate Studies Award <span>December 2020</span></li>
+      <li>Formuzis-Hunt-Lanning Undergraduate Student Paper Award <span>May 2019</span></li>
+      <li>Levern Graves Award <span>May 2019</span></li>
+      <li>Omicron Delta Epsilon – Economics Honors Society, Kappa Chapter <span>November 2018</span></li>
+      <li>Golden Key International Honors Society <span>August 2018</span></li>
+      <li>President, Economics Association <span>May 2018 – May 2019</span></li>
+      <li>Mihaylo Women's Leadership Program Recipient <span>October 2017 – May 2019</span></li>
+    </ul>
+  </section>
+
+  <!-- Skills & Other -->
+  <section>
+    <div class="section-title">Technical Skills &amp; Other</div>
+    <div class="skills-grid">
+      <div class="skill-row">
+        <span class="skill-label">Proficient</span>
+        Stata, Excel, R Studio, SPSS, EViews, LaTeX
+      </div>
+      <div class="skill-row">
+        <span class="skill-label">Basic</span>
+        Python, MATLAB
+      </div>
+      <div class="skill-row">
+        <span class="skill-label">Languages</span>
+        Portuguese, English
+      </div>
+      <div class="skill-row">
+        <span class="skill-label">Clearance</span>
+        Special Sworn Status — U.S. Census Bureau
+      </div>
+      <div class="skill-row">
+        <span class="skill-label">Certificate</span>
+        Intro to Python 3 Programming, CSU Fullerton Extension, August 2021
+      </div>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>
