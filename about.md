@@ -10,6 +10,6 @@ I majored in Economics in high school in Portugal, then moved to the States for 
 
 **A few fun facts about where I'm from:**
 - The Açores has 9 islands
-- Terceira's capital, Angra do Heroísmo, was twice the capital of Portugal and is now a UNESCO World Heritage Site
-- Lajes gets its name from old stone-slab quarries that once operated in the area, and it dates back to 1515
 - Terceira is nicknamed both "the Lilac Island" and "the Festa Island," known for its lively festivals that run from May to October
+- Terceira's capital, Angra do Heroísmo, was twice the capital of Portugal and is now a UNESCO World Heritage Site
+- Lajes gets its name from old stone-slab quarries that once operated in the area
