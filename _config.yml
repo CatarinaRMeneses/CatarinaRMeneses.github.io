@@ -1,0 +1,72 @@
+#title: "Catarina R. Meneses"
+#description: "Website for Catarina R. Meneses, PhD Student of Economics"
+#baseurl: "https://CatarinaRMeneses.github.io"
+#url: "https://CatarinaRMeneses.github.io"
+
+#theme: minimal-mistakes-jekyll
+#plugins:
+#  - jekyll-feed
+#  - jekyll-seo-tag
+
+#author:
+#  name: "Catarina R. Meneses"
+#  email: "meneses.c@northeastern.edu"
+
+#defaults:
+#  - scope:
+#      path: ""
+#      type: "posts"
+#    values:
+#      layout: "single"
+#      author_profile: true
+
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "air"
+title: Catarina R. Meneses
+author: Catarina R. Meneses
+email: meneses.c@northeastern.edu
+description: >- # this means to ignore newlines until "baseurl:"
+  Ph.D. Student of Economics at Northeastern University 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://CatarinaRMeneses.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: CatRMeneses
+github_username:  CatarinaRMeneses
+markdown: kramdown
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      classes: wide
+      author_profile: true
+      comments: true
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
