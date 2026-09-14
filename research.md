@@ -9,7 +9,7 @@ permalink: /research/
 
 ## Published Reports
 
-"Beyond the Numbers: A Qualitative Evaluation of the Connecticut Racial Profiling Prohibition Project for Addressing Disparities in Traffic Stops." [CTRP3](https://www.ctrp3.org/wp-content/uploads/2026/02/CTRP3-Qualitative-Evaluation-Technical-Report-12.17.25.pdf), December 2025 (with Ermus St. Louis, Amanda Nett, and Jillian Reeves)
+"Beyond the Numbers: A Qualitative Evaluation of the Connecticut Racial Profiling Prohibition Project for Addressing Disparities in Traffic Stops." [CTRP3, December 2025](https://www.ctrp3.org/wp-content/uploads/2026/02/CTRP3-Qualitative-Evaluation-Technical-Report-12.17.25.pdf) (with Ermus St. Louis, Amanda Nett, and Jillian Reeves)
 
 ## Resting Papers
 
