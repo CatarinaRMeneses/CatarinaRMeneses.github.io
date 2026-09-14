@@ -1,0 +1,17 @@
+Catarina Meneses:
+  name        : "Catarina R. Meneses"
+  bio         : |
+    Ph.D. Student in Applied Economics<br>
+    Crime, Health & Gender Economics<br>
+    Northeastern University
+  avatar      : "your-photo-filename.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:meneses.c@northeastern.edu"
+    - label: "Github"
+      icon: "fab fa-github"
+      url: "https://github.com/CatarinaRMeneses"
+    - label: "Department of Economics @ Northeastern"
+      icon: "fas fa-university"
+      url: "https://cssh.northeastern.edu/economics/"
