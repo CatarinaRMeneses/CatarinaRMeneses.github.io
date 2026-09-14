@@ -4,6 +4,7 @@ main:
   - title: "About"
     url: /about/
   - title: "Curriculum Vitae"
-    url: /cv/
+    url: /files/CV_Sept2026.pdf
+    target: "_blank"
   - title: "Research"
     url: /research/
