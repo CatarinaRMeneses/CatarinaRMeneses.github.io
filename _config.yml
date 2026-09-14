@@ -43,15 +43,30 @@
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "air"
 title: Catarina R. Meneses
-author: Catarina R. Meneses
 email: meneses.c@northeastern.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Ph.D. Student of Economics at Northeastern University 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://CatarinaRMeneses.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: CatRMeneses
-github_username:  CatarinaRMeneses
+github_username: CatarinaRMeneses
 markdown: kramdown
+
+author:
+  name: "Catarina R. Meneses"
+  email: "meneses.c@northeastern.edu"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/CatRMeneses"
+    - label: "Bluesky"
+      icon: "fas fa-fw fa-cloud"
+      url: "https://bsky.app/profile/catarinameneses.bsky.social"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/catarina-r-meneses"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/CatarinaRMeneses"
 
 defaults:
   # _pages
