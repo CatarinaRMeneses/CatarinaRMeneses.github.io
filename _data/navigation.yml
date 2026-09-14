@@ -1,10 +1,10 @@
 main:
   - title: "Home"
     url: /
-  - title: "About"
-    url: /about/
+  - title: "Research"
+  url: /research/
   - title: "Curriculum Vitae"
     url: /files/CV_Sept2026.pdf
     target: "_blank"
-  - title: "Research"
-    url: /research/
+  - title: "About"
+    url: /about/
