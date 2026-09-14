@@ -10,6 +10,6 @@ I majored in Economics in high school in Portugal, then moved to the States for 
 
 **A few fun facts about Terceira:**
 - It is one of nine islands in the Açores
-- It is nicknamed both "the Lilac Island" and "the Festa Island," known for its lively festivals that run from May to October
+- It is nicknamed both "the Lilac Island" and "the Festa Island" due to its lively festivals that run from May to October
 - The capital, Angra do Heroísmo, was twice the capital of Portugal and is now a UNESCO World Heritage Site
 - My hometown, Lajes, gets its name from old stone-slab quarries that once operated in the area
