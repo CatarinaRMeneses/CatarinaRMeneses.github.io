@@ -55,12 +55,6 @@ author:
   name: "Catarina R. Meneses"
   email: "meneses.c@northeastern.edu"
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/CatRMeneses"
-    - label: "Bluesky"
-      icon: "fas fa-fw fa-cloud"
-      url: "https://bsky.app/profile/catarinameneses.bsky.social"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/catarina-r-meneses"
