@@ -4,8 +4,6 @@ title: "About"
 permalink: /about/
 ---
 
-## About
-
 I am a dual U.S. and Portuguese citizen, born and raised on Terceira island in the Açores, Portugal. I grew up surrounded by nature on my family's small dairy farm with my three siblings. I also grew up around military since my mother worked as the Director of Business Programs at the U.S. Air Force detachment in Lajes. My family's roots on the island run deep, with records tracing back to 1461, and to São Miguel island before that.
 
 **A few fun facts about Terceira:**
