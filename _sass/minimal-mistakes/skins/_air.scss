@@ -3,14 +3,14 @@
    ========================================================================== */
 
 /* Colors */
-$background-color: #eaf3f7 !default;
+$background-color: #eaf5ee !default;
 $text-color: #222831 !default;
 $muted-text-color: #393e46 !default;
-$primary-color: #0092ca !default;
+$primary-color: #2e8b57 !default;
 $border-color: mix(#fff, #393e46, 75%) !default;
 $footer-background-color: $primary-color !default;
 /*$link-color: #393e46 !default;*/
-$link-color: #007bb6 !default;
+$link-color: #1f6f4a !default;
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: $text-color !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
@@ -23,11 +23,16 @@ $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
   color: inherit;
 }
 
-.author__name {
-  display: none;
+/* Fonts */
+body {
+  font-family: "Source Sans Pro", sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lora", serif;
+}
 
+/* Header name color */
 .site-title {
-  color: #2c5282 !important;
+  color: #14432a !important;
 }
