@@ -36,3 +36,44 @@ h1, h2, h3, h4, h5, h6 {
 .site-title {
   color: #14432a !important;
 }
+
+
+
+
+/* ── Teaching page layout ── */
+.teach-row {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 4px 24px;
+  padding: 20px 0;
+  border-bottom: 1px solid #d6e6dc;
+}
+.teach-row:last-child { border-bottom: none; }
+
+.teach-dates {
+  font-size: 13px;
+  color: var(--muted-text-color, #555);
+  padding-top: 4px;
+}
+
+.teach-institution {
+  font-family: "Lora", serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.teach-courses {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.teach-courses li {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 600px) {
+  .teach-row {
+    grid-template-columns: 1fr;
+  }
+}
