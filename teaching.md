@@ -22,7 +22,7 @@ permalink: /teaching/
   <div>
     <div class="teach-institution">Cerritos College</div>
     <ul class="teach-courses">
-      <li>Economic Issues and Policy</li>
+      <li>Economic Issues and Policy (Early College Program)</li>
       <li>Principles of Macroeconomics</li>
       <li>Principles of Microeconomics</li>
     </ul>
