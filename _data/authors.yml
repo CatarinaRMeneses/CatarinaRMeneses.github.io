@@ -1,16 +1,10 @@
 Catarina R. Meneses:
   name        : "Catarina R. Meneses"
-  bio         : |
-    Ph.D. Candidate <br>
-
   avatar: "/home_pic.jpeg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:meneses.c@northeastern.edu"
-    - label: "Github"
-      icon: "fab fa-github"
-      url: "https://github.com/CatarinaRMeneses"
-    - label: "Department of Economics @ Northeastern"
-      icon: "fas fa-university"
-      url: "https://cssh.northeastern.edu/economics/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/catarina-r-meneses"
