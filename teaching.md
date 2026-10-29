@@ -7,7 +7,7 @@ permalink: /teaching/
 <div class="teach-row">
   <div class="teach-dates">2021–2023</div>
   <div>
-    <div class="teach-institution">CSU Fullerton</div>
+    <div class="teach-institution">California State University, Fullerton</div>
     <ul class="teach-courses">
       <li>Principles of Macroeconomics</li>
       <li>Principles of Microeconomics</li>
@@ -30,7 +30,7 @@ permalink: /teaching/
 </div>
 
 <div class="teach-row">
-  <div class="teach-dates">Spring 2023</div>
+  <div class="teach-dates">2023</div>
   <div>
     <div class="teach-institution">Golden West College</div>
     <ul class="teach-courses">
