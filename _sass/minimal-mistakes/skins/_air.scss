@@ -80,6 +80,19 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 4px;
 }
 
+/* Expand content to full width on pages with no author sidebar */
+#main:not(:has(.author__avatar)) .sidebar {
+  display: none;
+}
+
+#main:not(:has(.author__avatar)) .page {
+  width: 100%;
+  max-width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: 0 auto;
+}
+
 @media (max-width: 600px) {
   .teach-row {
     grid-template-columns: 1fr;
