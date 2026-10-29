@@ -58,6 +58,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
   font-weight: 500;
 }
+.teach-note {
+  color: var(--muted-text-color, #5a6b60);
+  font-size: 0.85em;
+  font-weight: 400;
+}
 
 .teach-institution {
   font-family: "Lora", serif;
