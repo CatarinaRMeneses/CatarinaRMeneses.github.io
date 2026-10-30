@@ -4,7 +4,7 @@ title: "About"
 permalink: /about/
 ---
 
-I'm originally from Terceira Island, Açores, Portugal. Terceira is one of the nine islands of the Azores, affectionately known as both the "Lilac Island" and the "Festa Island" for its vibrant local festivals and traditions. My family's roots on the islands run deep and trace back to before the 1460s.
+I'm originally from Terceira Island, Açores, Portugal. Terceira is one of the nine islands of the Açores, affectionately known as both the "Lilac Island" and the "Festa Island" for its vibrant local festivals and traditions. My family's roots on the islands run deep and trace back to before the 1460s.
 
 I grew up surrounded by nature on my family's small dairy farm with my three siblings, and around military since my mother worked as the Director of Business Programs at the U.S. Air Force detachment in Lajes. (A.K.A. I was raised on AFM.)
 
