@@ -11,6 +11,9 @@ permalink: /research/
 <br><span class="paper-abstract"><em>Abstract:</em> Substance use is a well-established driver of intimate partner violence (IPV), with drug-related incidents posing persistent challenges for both public health and criminal justice systems. We examine how expanding access to substance use treatment (SUT) services affects IPV in the United States by leveraging variation in the opening and closing of treatment facilities at the county level. Using administrative data on IPV incidents from the National Incident-Based Reporting System at the agency level from 1998 to 2019 combined with county-level records on treatment facility information, we implement a continuous difference-in-differences research design. Our results show that adding three SUT facilities—the average annual increase per county over the sample period—reduces drug-involved IPV by about 1.5–1.7 percent. Staggered event-study analyses confirm parallel outcome trends, across treated and non-treated counties, prior to net facility openings and lend support to a causal interpretation of the estimates. Related evidence from SUT admissions drawn from the Treatment Episode Data Set (TEDS) shows that new centers significantly raise treatment entry, particularly among men, consistent with reduced perpetration driving the observed decline in IPV exposure. Our findings highlight the role of health services infrastructure in shaping violence-related outcomes and underscore the broader public safety benefits of investment in treatment access.</span>
 </details>
 
+
+
+
 "Clearance and Crime Prevention." (with Matthew B. Ross, CarlyWill Sloan, and Austin V. Smith)
 <details class="abstract-toggle">
 <summary>Show abstract</summary>
