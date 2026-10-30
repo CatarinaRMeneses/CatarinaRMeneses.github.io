@@ -14,28 +14,7 @@ $link-color: #1f6f4a !default;
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: $text-color !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
-.abstract-toggle {
-  margin-top: 6px;
-}
 
-.abstract-toggle summary {
-  cursor: pointer;
-  font-size: 0.85em;
-  color: var(--link-color, #1f6f4a);
-  font-weight: 500;
-}
-
-.abstract-toggle summary:hover {
-  text-decoration: underline;
-}
-
-.paper-abstract {
-  display: block;
-  font-size: 0.9em;
-  color: var(--muted-text-color, #555);
-  margin-top: 8px;
-  line-height: 1.5;
-}
 .page__footer {
   color: #fff !important; // override
 }
@@ -111,6 +90,30 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 4px;
 }
 
+/* ── Color blocking layout ── */
+.sidebar {
+  background-color: #1a4d33;
+  border-radius: 12px;
+  padding: 24px 20px;
+}
+
+.sidebar .author__urls-wrapper a,
+.sidebar .author__urls-wrapper li {
+  color: #eaf5ee;
+}
+
+.sidebar .author__avatar img {
+  border-radius: 8px;
+  border: 3px solid #eaf5ee;
+}
+
+.page {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+}
+
 /* Expand content to full width on pages with no author sidebar */
 #main:not(:has(.author__avatar)) .sidebar {
   display: none;
@@ -122,6 +125,45 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 2rem;
   padding-right: 2rem;
   margin: 0 auto;
+}
+
+/* ── Research page: abstract toggle ── */
+.abstract-toggle {
+  margin-top: 6px;
+  margin-bottom: 24px;
+}
+
+.abstract-toggle summary {
+  cursor: pointer;
+  font-size: 0.8em;
+  color: #1a4d33;
+  font-weight: 500;
+  list-style: none;
+}
+
+.abstract-toggle summary::-webkit-details-marker {
+  display: none;
+}
+
+.abstract-toggle summary::before {
+  content: "+ ";
+  font-size: 0.9em;
+}
+
+.abstract-toggle[open] summary::before {
+  content: "– ";
+}
+
+.abstract-toggle summary:hover {
+  text-decoration: underline;
+}
+
+.paper-abstract {
+  display: block;
+  font-size: 0.9em;
+  color: var(--muted-text-color, #555);
+  margin-top: 8px;
+  line-height: 1.5;
 }
 
 @media (max-width: 600px) {
