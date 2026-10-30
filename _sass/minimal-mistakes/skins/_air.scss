@@ -14,11 +14,26 @@ $link-color: #1f6f4a !default;
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: $text-color !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
+.abstract-toggle {
+  margin-top: 6px;
+}
+
+.abstract-toggle summary {
+  cursor: pointer;
+  font-size: 0.85em;
+  color: var(--link-color, #1f6f4a);
+  font-weight: 500;
+}
+
+.abstract-toggle summary:hover {
+  text-decoration: underline;
+}
+
 .paper-abstract {
   display: block;
   font-size: 0.9em;
   color: var(--muted-text-color, #555);
-  margin-top: 6px;
+  margin-top: 8px;
   line-height: 1.5;
 }
 .page__footer {
