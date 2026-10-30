@@ -59,6 +59,19 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 340px !important;
 }
 
+@media (min-width: 64em) {
+  .page {
+    width: calc(100% - 260px) !important;
+    padding-right: 260px !important;
+  }
+}
+@media (min-width: 80em) {
+  .page {
+    width: calc(100% - 340px) !important;
+    padding-right: 340px !important;
+  }
+}
+
 .author__urls-wrapper {
   margin-top: 20px;
 }
