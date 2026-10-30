@@ -4,12 +4,24 @@ title: "About"
 permalink: /about/
 ---
 
-I am a dual U.S. and Portuguese citizen, born and raised on Terceira island in the Açores, Portugal. I grew up surrounded by nature on my family's small dairy farm with my three siblings. I also grew up around military since my mother worked as the Director of Business Programs at the U.S. Air Force detachment in Lajes. My family's roots on the island run deep, with records tracing back to 1461, and to São Miguel island before that.
+I'm originally from Terceira Island, Açores, Portugal. My family's roots on the islands run deep and trace back to before the 1460s.
 
-**A few fun facts about Terceira:**
-- It is one of nine islands in the Açores
-- The capital, Angra do Heroísmo, was twice the capital of Portugal and is now a UNESCO World Heritage Site
-- It is nicknamed both "the Lilac Island" and "the Festa Island," due to its lively festivals that run from May to October
-- My hometown, Lajes, gets its name from old stone-slab quarries that once operated in the area
+Terceira is one of the nine islands of the Azores, affectionately known as both the "Lilac Island" and the "Festa Island" for its vibrant local festivals and traditions.
 
-From this small island in the middle of the Atlantic Ocean, my path eventually led me to economics. I majored in the subject in high school in Portugal, then moved to the States for my undergraduate degree. This transition allowed me to build my education across two countries and cultures. I'm a first-generation college student, and the first in my family to pursue a Ph.D. Since access to higher education is still a relatively recent reality for many families on the islands, I'm very passionate about education access. As an adjunct, I taught through Cerritos College's Early College Program, which gives low-income high school students free access to college coursework — an experience that was especially meaningful to me, and something I would like to continue to pursue.
+I grew up surrounded by nature on my family's small dairy farm with my three siblings, and around military since my mother worked as the Director of Business Programs at the U.S. Air Force detachment in Lajes. (A.K.A. I was raised on AFM.)
+
+I studied economics in high school in Portugal before moving to the United States to pursue my undergraduate degree. As a first-generation college student and the first in my family to pursue a Ph.D., education has played an important role in shaping my personal and professional path.
+
+Beyond research, I particularly enjoy teaching and mentoring students. As a lecturer, I taught through Cerritos College's Early College Program, which provides high school students from low-income backgrounds with access to free college coursework. It was a particularly rewarding experience, and one that strengthened my interest in making higher education more accessible.
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 20px 0;">
+  <img src="/images/donkeys.jpeg" alt="" style="width: 100%; height: 200px; object-fit: cover; border-radius: 6px;">
+  <img src="/images/cow.jpg" alt="" style="width: 100%; height: 200px; object-fit: cover; border-radius: 6px;">
+  <img src="/images/waves.jpeg" alt="" style="width: 100%; height: 200px; object-fit: cover; border-radius: 6px;">
+  <img src="/images/algar.jpeg" alt="" style="width: 100%; height: 200px; object-fit: cover; border-radius: 6px;">
+  <img src="/images/hills.jpg" alt="" style="width: 100%; height: 200px; object-fit: cover; border-radius: 6px;">
+  <img src="/images/horse.jpg" alt="" style="width: 100%; height: 200px; object-fit: cover; border-radius: 6px;">
+  <img src="/images/hortensia.jpg" alt="" style="width: 100%; height: 200px; object-fit: cover; border-radius: 6px;">
+  <img src="/images/lake.jpeg" alt="" style="width: 100%; height: 200px; object-fit: cover; border-radius: 6px;">
+  <img src="/images/ilheu.jpeg" alt="" style="width: 100%; height: 200px; object-fit: cover; border-radius: 6px;">
+</div>
