@@ -72,6 +72,14 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* Widen overall page container for more text space */
+#main {
+  max-width: 1500px !important;
+}
+.masthead__inner-wrap {
+  max-width: 1500px !important;
+}
+
 .author__urls-wrapper {
   margin-top: 20px;
 }
@@ -131,17 +139,35 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
 }
 
-/* ── Research page: abstract toggle ── */
-.abstract-toggle {
-  margin-top: 6px;
-  margin-bottom: 24px;
+/* ── Research page: paper entries ── */
+.paper-entry {
+  margin-bottom: 28px;
+}
+
+.paper-title {
+  font-family: "Lora", serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: $text-color;
+  margin-bottom: 4px;
+}
+
+.paper-authors {
+  font-size: 0.85em;
+  color: var(--muted-text-color, #6b7a70);
+  margin-bottom: 8px;
+}
+
+.paper-authors a {
+  color: var(--muted-text-color, #6b7a70);
+  text-decoration: underline;
 }
 
 .abstract-toggle summary {
   cursor: pointer;
-  font-size: 0.8em;
-  color: #1a4d33;
-  font-weight: 500;
+  font-size: 0.85em;
+  font-weight: 700;
+  color: $text-color;
   list-style: none;
 }
 
@@ -150,16 +176,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .abstract-toggle summary::before {
-  content: "+ ";
-  font-size: 0.9em;
+  content: "› ";
+  display: inline-block;
+  transition: transform 0.15s ease-in-out;
 }
 
 .abstract-toggle[open] summary::before {
-  content: "– ";
-}
-
-.abstract-toggle summary:hover {
-  text-decoration: underline;
+  transform: rotate(90deg);
 }
 
 .paper-abstract {
