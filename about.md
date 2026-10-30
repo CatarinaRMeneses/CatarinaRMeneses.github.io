@@ -13,13 +13,13 @@ I studied economics in high school in Portugal before moving to the United State
 Beyond research, I particularly enjoy teaching and mentoring students. As a lecturer, I taught through Cerritos College's Early College Program, which provides high school students from low-income backgrounds with access to free college coursework. It was a particularly rewarding experience, and one that strengthened my interest in making higher education more accessible.
 
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 20px 0;">
-  <img src="/donkeys.jpeg" alt="" style="width: 100%; height: 200px; object-fit: cover; border-radius: 6px;">
-  <img src="/cow.jpg" alt="" style="width: 100%; height: 200px; object-fit: cover; border-radius: 6px;">
-  <img src="/waves.jpeg" alt="" style="width: 100%; height: 200px; object-fit: cover; border-radius: 6px;">
-  <img src="/algar.jpeg" alt="" style="width: 100%; height: 200px; object-fit: cover; border-radius: 6px;">
-  <img src="/hills.jpg" alt="" style="width: 100%; height: 200px; object-fit: cover; border-radius: 6px;">
-  <img src="/horse.jpg" alt="" style="width: 100%; height: 200px; object-fit: cover; border-radius: 6px;">
-  <img src="/hortensia.jpg" alt="" style="width: 100%; height: 200px; object-fit: cover; border-radius: 6px;">
-  <img src="/lake.jpeg" alt="" style="width: 100%; height: 200px; object-fit: cover; border-radius: 6px;">
-  <img src="/ilheu.jpeg" alt="" style="width: 100%; height: 200px; object-fit: cover; border-radius: 6px;">
+  <img src="/donkeys.jpeg" alt="" style="width: 100%; height: auto; border-radius: 6px;">
+  <img src="/cow.jpg" alt="" style="width: 100%; height: auto; border-radius: 6px;">
+  <img src="/waves.jpeg" alt="" style="width: 100%; height: auto; border-radius: 6px;">
+  <img src="/algar.jpeg" alt="" style="width: 100%; height: auto; border-radius: 6px;">
+  <img src="/hills.jpg" alt="" style="width: 100%; height: auto; border-radius: 6px;">
+  <img src="/horse.jpg" alt="" style="width: 100%; height: auto; border-radius: 6px;">
+  <img src="/hortensia.jpg" alt="" style="width: 100%; height: auto; border-radius: 6px;">
+  <img src="/lake.jpeg" alt="" style="width: 100%; height: auto; border-radius: 6px;">
+  <img src="/ilheu.jpeg" alt="" style="width: 100%; height: auto; border-radius: 6px;">
 </div>
