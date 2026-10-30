@@ -119,8 +119,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .teach-courses {
   margin: 0;
-  padding-left: 0;
-  list-style: none;
+  padding-left: 20px;
 }
 
 .teach-courses li {
@@ -148,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
 .paper-title {
   font-family: "Lora", serif;
   font-size: 1.05rem;
-  font-weight: 700;
+  font-weight: 400;
   color: $text-color;
   margin-bottom: 4px;
 }
