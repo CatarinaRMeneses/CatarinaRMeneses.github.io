@@ -7,7 +7,7 @@ author_profile: true
 author: Catarina R. Meneses
 ---
 
-I am a Ph.D. candidate at [Northeastern University](https://www.northeastern.edu/), in the [Economics Department](https://cssh.northeastern.edu/economics/). 
+I am a fourth-year Ph.D. student at [Northeastern University](https://www.northeastern.edu/), in the [Economics Department](https://cssh.northeastern.edu/economics/). 
 
 My primary research interests are in crime, health and gender economics. 
 
