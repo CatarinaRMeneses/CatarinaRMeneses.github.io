@@ -14,7 +14,13 @@ $link-color: #1f6f4a !default;
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: $text-color !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
-
+.paper-abstract {
+  display: block;
+  font-size: 0.9em;
+  color: var(--muted-text-color, #555);
+  margin-top: 6px;
+  line-height: 1.5;
+}
 .page__footer {
   color: #fff !important; // override
 }
