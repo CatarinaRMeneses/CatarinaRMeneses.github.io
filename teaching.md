@@ -9,10 +9,10 @@ permalink: /teaching/
   <div>
     <div class="teach-institution">Northeastern University <span class="teach-note">(Teaching Assistant)</span></div>
     <ul class="teach-courses">
-      <li>Economics of Crime <span class="teach-note">(Spring, Summer 2026)</span></li>
-      <li>Statistics for Economists <span class="teach-note">(Fall 2023, Spring 2024, Spring 2026, Summer 2026)</span></li>
-      <li>International Economic Development <span class="teach-note">(Spring 2025)</span></li>
-      <li>Applied Econometrics <span class="teach-note">(Spring 2024)</span></li>
+      <li>Economics of Crime <span class="teach-note"></span></li>
+      <li>Statistics for Economists <span class="teach-note"></span></li>
+      <li>International Economic Development <span class="teach-note"></span></li>
+      <li>Applied Econometrics <span class="teach-note"></span></li>
     </ul>
   </div>
 </div>
